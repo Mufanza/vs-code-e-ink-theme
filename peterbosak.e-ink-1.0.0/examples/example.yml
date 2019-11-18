@@ -1,0 +1,10 @@
+title: The Legend of Zelda
+release_date: 1986
+characters:
+  - Link
+  - Zelda
+  - Ganon
+completed:
+  main_quest: true
+  second_quest: true
+  no_sword: false

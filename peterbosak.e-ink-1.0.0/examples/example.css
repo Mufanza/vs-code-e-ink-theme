@@ -1,0 +1,13 @@
+body {
+  font-family: sans serif;
+  background-color: #ffffff;
+  color: slategray;
+}
+
+.classNameHere {
+  font-weight: bold !important;
+}
+
+#IdNameHere {
+  margin: 0rem;
+}

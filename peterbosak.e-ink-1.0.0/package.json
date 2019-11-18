@@ -1,0 +1,34 @@
+{
+	"name": "e-ink-theme",
+	"displayName": "E-Ink",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Mufanza/vs-code-e-ink-theme.git"
+	},
+	"description": "A Light color theme optimized for usage with black-and-white E-Ink monitors (Dasung)",
+	"version": "1.0.0",
+	"publisher": "mufanza",
+	"icon": "images/icon-eink.png",
+	"engines": {
+		"vscode": "^1.15.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"e-ink",
+		"eink",
+		"ink",
+		"light",
+		"black and white"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "E-Ink",
+				"uiTheme": "vs",
+				"path": "./themes/E-Ink-color-theme.json"
+			}
+		]
+	}
+}

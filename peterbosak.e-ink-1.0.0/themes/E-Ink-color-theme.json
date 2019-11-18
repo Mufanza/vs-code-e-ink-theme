@@ -1,0 +1,65 @@
+{
+  "name": "E-Ink",
+  "type": "light",
+  "colors": {
+    "editor.background": "#ffffff",
+    "editor.foreground": "#000000",
+    "contrastActiveBorder": "#000000",
+    "editor.selectionBackground": "#999999",
+    "editor.selectionHighlightBackground": "#cccccc",
+  },
+  "tokenColors": [
+    {
+      "name": "Function",
+      "scope": "support.function, variable.function",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Function Call",
+      "scope": "meta.function-call entity.name.function",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Function Name",
+      "scope": "entity.name.function",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Object Key",
+      "scope": "constant.other.object.key string.unquoted",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "String",
+      "scope":
+        "string.quoted, string, punctuation.tag.definition.string, tag.string",
+      "settings": {
+        "fontStyle": "italic",
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#888888"
+      }
+    },
+    {
+      "name": "[JSON] - Property Names",
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#000000"
+      }
+    },
+  ]
+}
