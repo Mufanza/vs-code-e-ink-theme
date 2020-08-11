@@ -3,7 +3,12 @@ A light Visual Studio Code color theme optimized for usage with black-and-white 
 
 This is a purely black-and-white color theme designed to look and feel good on E-Ink monitors (such as Dasung Paperlike http://www.dasungtech.com/).
 
-Based on Anchorage, the theme distinguishes between (mostly) javascript keywords by marking them in bold font. Comments are displayed in greyed-out font while the contrast between regural text and background has been cranked-up to maximum in order to work nicely with the e-ink medium.
+The theme distinguishes between (mostly) javascript keywords by marking them in bold font. Comments are displayed in greyed-out font while the contrast between regural text and background has been cranked-up to maximum in order to work nicely with the e-ink medium.
+
+![Example](https://github.com/Mufanza/vs-code-e-ink-theme/example-image.png)
+
+(I recommend you use this along with [Fira Code](https://github.com/tonsky/FiraCode) font)
+
 
 ## Installation
 
