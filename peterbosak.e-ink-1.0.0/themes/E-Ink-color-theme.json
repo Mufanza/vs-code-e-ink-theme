@@ -13,19 +13,33 @@
       "name": "Function",
       "scope": "support.function, variable.function",
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "bold"
       }
     },
     {
       "name": "Function Call",
       "scope": "meta.function-call entity.name.function",
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "bold"
       }
     },
     {
-      "name": "Function Name",
-      "scope": "entity.name.function",
+      "name": "Variable Interpolation",
+      "scope": "variable.interpolation",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+        "name": "Variable Parameter",
+        "scope": "variable.parameter",
+        "settings": {
+          "fontStyle": "bold"
+        }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
       "settings": {
         "fontStyle": "bold"
       }
@@ -42,7 +56,21 @@
       "scope":
         "string.quoted, string, punctuation.tag.definition.string, tag.string",
       "settings": {
-        "fontStyle": "italic",
+        "foreground": "#777777"
+      }
+    },
+    {
+      "name": "this",
+      "scope": "variable.language.this",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Object Key",
+      "scope": "constant.other.object.key string.unquoted",
+      "settings": {
+        "fontStyle": "bold"
       }
     },
     {
@@ -51,6 +79,77 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#888888"
+      }
+    },
+    {
+      "name": "Entity Name Type",
+      "scope": "entity.name.type",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+        "name": "Entity Other Inherited Class",
+        "scope": "entity.other.inherited-class",
+        "settings": {
+          "fontStyle": "bold"
+        }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword, keyword.operator.new, keyword.other, keyword.control",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Keyword (Operators)",
+      "scope": "keyword.operator",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Keyword (Conditionals)",
+      "scope": "keyword.control.conditional, source.php keyword.control",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Keyword (TryCatch)",
+      "scope": "keyword.control.trycatch",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Keyword Control",
+      "scope": "keyword.control",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Keyword (Flow e.g. return, await)",
+      "scope": "keyword.control.flow",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Braces",
+      "scope": "meta.brace, punctuation.definition.parameters.begin, punctuation.definition.parameters.end,\n\t\t\tpunctuation.definition.block, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end,\n\t\t\tpunctuation.section.embedded.begin, punctuation.section.embedded.end",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Braces (Square)",
+      "scope": "meta.brace.square",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#000000",
       }
     },
     {
