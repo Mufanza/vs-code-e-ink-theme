@@ -5,7 +5,7 @@ This is a purely black-and-white color theme designed to look and feel good on E
 
 The theme distinguishes between (mostly) javascript keywords by marking them in bold font. Comments are displayed in greyed-out font while the contrast between regural text and background has been cranked-up to maximum in order to work nicely with the e-ink medium.
 
-![Example](https://github.com/Mufanza/vs-code-e-ink-theme/example-image.png)
+![Example](https://github.com/Mufanza/vs-code-e-ink-theme/blob/master/peterbosak.e-ink-1.0.0/example-image.png)
 
 (I recommend you use this along with [Fira Code](https://github.com/tonsky/FiraCode) font)
 
