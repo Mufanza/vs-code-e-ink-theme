@@ -6,7 +6,7 @@
 		"url": "https://github.com/Mufanza/vs-code-e-ink-theme.git"
 	},
 	"description": "A Light color theme optimized for usage with black-and-white E-Ink monitors (Dasung)",
-	"version": "2.2.0",
+	"version": "2.3.0",
 	"publisher": "mufanza",
 	"icon": "images/icon-eink.png",
 	"engines": {
