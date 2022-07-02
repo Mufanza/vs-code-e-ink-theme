@@ -7,7 +7,7 @@ The theme distinguishes between (mostly) javascript keywords by marking them in 
 
 ## Installation
 
-In the command palette (`ctrl/cmd + shift + p`) type Install Extension and search for E-Ink.
+In the command palette (`ctrl/cmd + shift + p`) type Install Extension and search for **E-Ink 2**.
 
 ## Example
 
