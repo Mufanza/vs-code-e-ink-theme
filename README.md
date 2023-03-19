@@ -1,4 +1,4 @@
-# E-Ink Theme for Visual Studio Code
+# E-Ink Theme for Visual Studio Code/VSCodium
 A light Visual Studio Code color theme optimized for usage with black-and-white E-Ink monitors
 
 This is a purely black-and-white color theme designed to look and feel good on E-Ink monitors (such as Dasung Paperlike http://www.dasungtech.com/).
