@@ -716,5 +716,31 @@
         "foreground": "#000000"
       }
     },
+    {
+      "name": "Diff Inserted",
+      "scope": [
+        "markup.inserted",
+        "punctuation.definition.inserted.diff",
+        "punctuation.definition.to-file.diff",
+        "meta.diff.header.to-file"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#888888",
+      }
+    },
+    {
+      "name": "Diff Deleted",
+      "scope": [
+        "markup.deleted",
+        "punctuation.definition.deleted.diff",
+        "punctuation.definition.from-file.diff",  
+        "meta.diff.header.from-file"
+      ],
+      "settings": {
+        "fontStyle": "strikethrough",
+        "foreground": "#bbbbbb"
+      }
+    },
   ]
 }
